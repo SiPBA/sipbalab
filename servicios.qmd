@@ -1,0 +1,35 @@
+---
+title: "Servicios"
+description-meta: "Servicios del Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)"
+image: files/images/sipbalab_icon.png
+toc: true
+page-layout: article
+---
+
+## Resumen
+
+El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo.
+
+## Infraestructura y Capacidades
+
+- **Infraestructura distribuida**: operación colaborativa entre UGR, Universidad de Málaga y University of Cambridge.
+- **Adquisición de bioseñales**: EEG, ECG, EMG y EOG con amplificadores multicanal (64-160 canales) y compatibilidad con TMS/tDCS.
+- **fNIRS**: equipos de 16 fuentes/16 detectores y sistemas NIRSport de 64 canales, con sincronización a estímulos.
+- **Plataformas NI**: MyDAQ, ELVIS II y módulos DAQ para acoplar sensores biomédicos (ECG, presión arterial, temperatura, oxígeno, espirometría, etc.).
+- **Sensores Vernier con NI-DAQmx/LabVIEW**: módulos SensorDAQ interoperables veda NI-DAQmx (8.6+) con 2 entradas analógicas, 4 líneas digitales, 1 salida analógica y 1 contador; usables como DAQ estándar.
+- **Cálculo HPC/GPU distribuido**: servidores en UGR, clúster con nodos GPU en UMA (p. ej., RTX 3090) y entorno distribuido en Cambridge (>40 máquinas) bajo SLURM/Grid Engine.
+- **Software y pipelines**: MATLAB, Python, EEGLAB, MNE, FSL, SPM, ANTs, MRtrix, DiPy, FreeSurfer, con servidores y almacenamiento redundante.
+
+## Servicios Ofrecidos
+
+- **Asesoramiento metodológico**: diseño experimental, selección de sensores, protocolos y sincronización multimodal (señal/imagen/estimulación).
+- **Adquisición de datos**: registro de EEG, ECG, EMG, fNIRS y sensores Vernier; planificación y soporte técnico.
+- **Procesado y análisis**: filtrado, cancelación de artefactos, espectral, conectividad, reconstrucción de imagen, fusión multimodal, aprendizaje automático y estadística avanzada.
+- **Cálculo intensivo y almacenamiento**: recursos para grandes volúmenes de datos y modelos complejos, con acceso controlado.
+- **Formación y transferencia**: cursos, talleres, asesoramiento a empresas, colaboraciones e I+D.
+
+---
+
+Para consultas o solicitudes, visita la página de [Contacto](contact.qmd).
+
+

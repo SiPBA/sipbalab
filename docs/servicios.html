@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="SIPBA-LAB">
-<meta name="description" content="Posts about papers, events, news, and more">
+<meta name="description" content="Servicios del Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)">
 
-<title>What’s New &amp; Updated – SIPBA-LAB</title>
+<title>Servicios – SIPBA-LAB</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -130,44 +99,19 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="SIPBA-LAB" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – SIPBA-LAB">
-<meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg">
+<meta property="og:title" content="Servicios – SIPBA-LAB">
+<meta property="og:description" content="Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)">
+<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/sipbalab_icon.png">
 <meta property="og:site_name" content="SIPBA-LAB">
-<meta name="twitter:title" content="What’s New &amp; Updated – SIPBA-LAB">
-<meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg">
+<meta property="og:image:height" content="591">
+<meta property="og:image:width" content="1047">
+<meta name="twitter:title" content="Servicios – SIPBA-LAB">
+<meta name="twitter:description" content="Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)">
+<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/sipbalab_icon.png">
+<meta name="twitter:image-height" content="591">
+<meta name="twitter:image-width" content="1047">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -197,7 +141,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-el-laboratorio">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
+    <a class="dropdown-item" href="./servicios.html">
  <span class="dropdown-text">Servicios</span></a>
   </li>  
         <li>
@@ -277,15 +221,22 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#resumen" id="toc-resumen" class="nav-link active" data-scroll-target="#resumen">Resumen</a></li>
+  <li><a href="#infraestructura-y-capacidades" id="toc-infraestructura-y-capacidades" class="nav-link" data-scroll-target="#infraestructura-y-capacidades">Infraestructura y Capacidades</a></li>
+  <li><a href="#servicios-ofrecidos" id="toc-servicios-ofrecidos" class="nav-link" data-scroll-target="#servicios-ofrecidos">Servicios Ofrecidos</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">What’s New &amp; Updated</h1>
-<p class="subtitle lead">Posts about papers, events, news, and more</p>
+<h1 class="title">Servicios</h1>
 </div>
 
 
@@ -302,180 +253,38 @@ window.Quarto = {
 </header>
 
 
-<div id="posts">
+<section id="resumen" class="level2">
+<h2 class="anchored" data-anchor-id="resumen">Resumen</h2>
+<p>El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo.</p>
+</section>
+<section id="infraestructura-y-capacidades" class="level2">
+<h2 class="anchored" data-anchor-id="infraestructura-y-capacidades">Infraestructura y Capacidades</h2>
+<ul>
+<li><strong>Infraestructura distribuida</strong>: operación colaborativa entre UGR, Universidad de Málaga y University of Cambridge.</li>
+<li><strong>Adquisición de bioseñales</strong>: EEG, ECG, EMG y EOG con amplificadores multicanal (64-160 canales) y compatibilidad con TMS/tDCS.</li>
+<li><strong>fNIRS</strong>: equipos de 16 fuentes/16 detectores y sistemas NIRSport de 64 canales, con sincronización a estímulos.</li>
+<li><strong>Plataformas NI</strong>: MyDAQ, ELVIS II y módulos DAQ para acoplar sensores biomédicos (ECG, presión arterial, temperatura, oxígeno, espirometría, etc.).</li>
+<li><strong>Sensores Vernier con NI-DAQmx/LabVIEW</strong>: módulos SensorDAQ interoperables veda NI-DAQmx (8.6+) con 2 entradas analógicas, 4 líneas digitales, 1 salida analógica y 1 contador; usables como DAQ estándar.</li>
+<li><strong>Cálculo HPC/GPU distribuido</strong>: servidores en UGR, clúster con nodos GPU en UMA (p.&nbsp;ej., RTX 3090) y entorno distribuido en Cambridge (&gt;40 máquinas) bajo SLURM/Grid Engine.</li>
+<li><strong>Software y pipelines</strong>: MATLAB, Python, EEGLAB, MNE, FSL, SPM, ANTs, MRtrix, DiPy, FreeSurfer, con servidores y almacenamiento redundante.</li>
+</ul>
+</section>
+<section id="servicios-ofrecidos" class="level2">
+<h2 class="anchored" data-anchor-id="servicios-ofrecidos">Servicios Ofrecidos</h2>
+<ul>
+<li><strong>Asesoramiento metodológico</strong>: diseño experimental, selección de sensores, protocolos y sincronización multimodal (señal/imagen/estimulación).</li>
+<li><strong>Adquisición de datos</strong>: registro de EEG, ECG, EMG, fNIRS y sensores Vernier; planificación y soporte técnico.</li>
+<li><strong>Procesado y análisis</strong>: filtrado, cancelación de artefactos, espectral, conectividad, reconstrucción de imagen, fusión multimodal, aprendizaje automático y estadística avanzada.</li>
+<li><strong>Cálculo intensivo y almacenamiento</strong>: recursos para grandes volúmenes de datos y modelos complejos, con acceso controlado.</li>
+<li><strong>Formación y transferencia</strong>: cursos, talleres, asesoramiento a empresas, colaboraciones e I+D.</li>
+</ul>
+<hr>
+<p>Para consultas o solicitudes, visita la página de <a href="./contact.html">Contacto</a>.</p>
 
-</div>
 
+</section>
 
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728943200000">
-<div class="thumbnail">
-<p><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a></p><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<p><img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">Quarto Academic Website Examples and Tips</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">Examples and tips for Quarto Academic Website</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<div class="listing-date">
-Oct 15, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Gang He
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725314400000" data-listing-file-modified-sort="1760546776000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail">
-<p><a href="./posts/event-title/index.html" class="no-external"></a></p><a href="./posts/event-title/index.html" class="no-external">
-<p><img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image"></p>
-</a><p><a href="./posts/event-title/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/event-title/index.html" class="no-external">Event item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/event-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnQ='); return false;">
-event
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">
-presentation
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/event-title/index.html" class="no-external">About Event item.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/event-title/index.html" class="no-external">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-<div class="listing-author">
-Event
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719180000000" data-listing-file-modified-sort="1760546776000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="./posts/news-title/index.html" class="no-external"></a></p><a href="./posts/news-title/index.html" class="no-external">
-<p><img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image"></p>
-</a><p><a href="./posts/news-title/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/news-title/index.html" class="no-external">News item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/news-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/news-title/index.html" class="no-external">About new item</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/news-title/index.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-News
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXI=" data-listing-date-sort="-1092960000000" data-listing-file-modified-sort="1760546776000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail">
-<p><a href="./posts/paper-title/index.html" class="no-external"></a></p><a href="./posts/paper-title/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/paper-title/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/paper-title/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-title/index.html" class="no-external">Can quantum-mechanical description of physical reality be considered complete?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-title/index.html" class="no-external"><em>Physical Review</em></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">
-paper
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/paper-title/index.html" class="no-external">One is thus led to conclude that the description of reality as given by a wave function is not complete.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-title/index.html" class="no-external">
-<div class="listing-date">
-May 15, 1935
-</div>
-<div class="listing-author">
-Albert Einstein, Boris Podolsky, Nathan Rosen
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

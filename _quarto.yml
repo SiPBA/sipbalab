@@ -8,19 +8,20 @@ author-meta: "SIPBA-LAB"
 
 website:
   title: "SIPBA-LAB"
-  image: "https://quarto.org/quarto.png"
+  image: "files/images/sipbalab_icon.png"
   description: "Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)"
  
   navbar:
     background: light  # You can change the background color here
+    logo: "files/images/sipbalab_icon.png"
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
-      - text: About
+      - text: El laboratorio
         menu:
           - text: Servicios
-            href: posts.qmd#category=news
+            href: servicios.qmd
           - text: Tarifas
             href: posts.qmd#category=event      
           - text: Contacto
@@ -33,7 +34,7 @@ website:
             href: posts.qmd#category=paper
           - text: Proyectos
             href: projects.qmd                                
-      - text: Outreach
+      - text: Comunicación
         menu:        
           - text: Presentaciones
             href: posts.qmd#category=presentation                   

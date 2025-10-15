@@ -6,6 +6,7 @@ page-navigation: false
 toc: false
 #sidebar: false
 page-layout: full
+include-before-body: _hero_banner.html
 
 about:
   id: hero-heading
