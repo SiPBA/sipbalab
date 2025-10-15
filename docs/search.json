@@ -1,24 +1,31 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
+    "objectID": "servicios.html",
+    "href": "servicios.html",
+    "title": "Servicios",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\n\nNo matching items"
+    "text": "El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "servicios.html#resumen",
+    "href": "servicios.html#resumen",
+    "title": "Servicios",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "text": "El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo."
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "objectID": "servicios.html#infraestructura-y-capacidades",
+    "href": "servicios.html#infraestructura-y-capacidades",
+    "title": "Servicios",
+    "section": "Infraestructura y Capacidades",
+    "text": "Infraestructura y Capacidades\n\nInfraestructura distribuida: operación colaborativa entre UGR, Universidad de Málaga y University of Cambridge.\nAdquisición de bioseñales: EEG, ECG, EMG y EOG con amplificadores multicanal (64-160 canales) y compatibilidad con TMS/tDCS.\nfNIRS: equipos de 16 fuentes/16 detectores y sistemas NIRSport de 64 canales, con sincronización a estímulos.\nPlataformas NI: MyDAQ, ELVIS II y módulos DAQ para acoplar sensores biomédicos (ECG, presión arterial, temperatura, oxígeno, espirometría, etc.).\nSensores Vernier con NI-DAQmx/LabVIEW: módulos SensorDAQ interoperables veda NI-DAQmx (8.6+) con 2 entradas analógicas, 4 líneas digitales, 1 salida analógica y 1 contador; usables como DAQ estándar.\nCálculo HPC/GPU distribuido: servidores en UGR, clúster con nodos GPU en UMA (p. ej., RTX 3090) y entorno distribuido en Cambridge (&gt;40 máquinas) bajo SLURM/Grid Engine.\nSoftware y pipelines: MATLAB, Python, EEGLAB, MNE, FSL, SPM, ANTs, MRtrix, DiPy, FreeSurfer, con servidores y almacenamiento redundante."
+  },
+  {
+    "objectID": "servicios.html#servicios-ofrecidos",
+    "href": "servicios.html#servicios-ofrecidos",
+    "title": "Servicios",
+    "section": "Servicios Ofrecidos",
+    "text": "Servicios Ofrecidos\n\nAsesoramiento metodológico: diseño experimental, selección de sensores, protocolos y sincronización multimodal (señal/imagen/estimulación).\nAdquisición de datos: registro de EEG, ECG, EMG, fNIRS y sensores Vernier; planificación y soporte técnico.\nProcesado y análisis: filtrado, cancelación de artefactos, espectral, conectividad, reconstrucción de imagen, fusión multimodal, aprendizaje automático y estadística avanzada.\nCálculo intensivo y almacenamiento: recursos para grandes volúmenes de datos y modelos complejos, con acceso controlado.\nFormación y transferencia: cursos, talleres, asesoramiento a empresas, colaboraciones e I+D.\n\n\nPara consultas o solicitudes, visita la página de Contacto."
   },
   {
     "objectID": "projects.html",
@@ -28,18 +35,32 @@
     "text": "Order By\n       Default\n         \n        \n         \n          Title\n        \n         \n          Team\n        \n         \n          Funder\n        \n         \n          Description\n        \n         \n          Start\n        \n         \n          End\n        \n         \n          Funding\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n \n\n\nTitle\n\n\nTeam\n\n\nFunder\n\n\nDescription\n\n\nFunding\n\n\nStart\n\n\nEnd\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "About the news"
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
     "section": "",
-    "text": "About the news"
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n        \n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n \n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",
@@ -56,39 +77,18 @@
     "text": "Links\nPublished paper"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "News item",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "About the news"
   },
   {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
+    "objectID": "posts/news-title/index.html#summary",
+    "href": "posts/news-title/index.html#summary",
+    "title": "News item",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "About the news"
   },
   {
     "objectID": "index.html",
@@ -119,52 +119,24 @@
     "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\nAll Posts »"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n        \n         \n          Name\n        \n         \n          Role\n        \n         \n          Started\n        \n         \n          Ended\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n \n\n\nName\n\n\nRole\n\n\nStarted\n\n\nEnded\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "servicios.html",
-    "href": "servicios.html",
-    "title": "Servicios",
-    "section": "",
-    "text": "El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo."
-  },
-  {
-    "objectID": "servicios.html#resumen",
-    "href": "servicios.html#resumen",
-    "title": "Servicios",
-    "section": "",
-    "text": "El Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA) de la Universidad de Granada actúa como servicio común de investigación para ofrecer soporte técnico, metodológico y formativo en adquisición, procesamiento y modelado de datos biomédicos a investigadores, grupos y entidades clínicas o industriales. Se focaliza en el análisis de señales fisiológicas, su integración con modalidades de imagen y el desarrollo de métodos avanzados, especialmente con la futura infraestructura de resonancia magnética de bajo campo."
-  },
-  {
-    "objectID": "servicios.html#infraestructura-y-capacidades",
-    "href": "servicios.html#infraestructura-y-capacidades",
-    "title": "Servicios",
-    "section": "Infraestructura y Capacidades",
-    "text": "Infraestructura y Capacidades\n\nInfraestructura distribuida: operación colaborativa entre UGR, Universidad de Málaga y University of Cambridge.\nAdquisición de bioseñales: EEG, ECG, EMG y EOG con amplificadores multicanal (64-160 canales) y compatibilidad con TMS/tDCS.\nfNIRS: equipos de 16 fuentes/16 detectores y sistemas NIRSport de 64 canales, con sincronización a estímulos.\nPlataformas NI: MyDAQ, ELVIS II y módulos DAQ para acoplar sensores biomédicos (ECG, presión arterial, temperatura, oxígeno, espirometría, etc.).\nSensores Vernier con NI-DAQmx/LabVIEW: módulos SensorDAQ interoperables veda NI-DAQmx (8.6+) con 2 entradas analógicas, 4 líneas digitales, 1 salida analógica y 1 contador; usables como DAQ estándar.\nCálculo HPC/GPU distribuido: servidores en UGR, clúster con nodos GPU en UMA (p. ej., RTX 3090) y entorno distribuido en Cambridge (&gt;40 máquinas) bajo SLURM/Grid Engine.\nSoftware y pipelines: MATLAB, Python, EEGLAB, MNE, FSL, SPM, ANTs, MRtrix, DiPy, FreeSurfer, con servidores y almacenamiento redundante."
-  },
-  {
-    "objectID": "servicios.html#servicios-ofrecidos",
-    "href": "servicios.html#servicios-ofrecidos",
-    "title": "Servicios",
-    "section": "Servicios Ofrecidos",
-    "text": "Servicios Ofrecidos\n\nAsesoramiento metodológico: diseño experimental, selección de sensores, protocolos y sincronización multimodal (señal/imagen/estimulación).\nAdquisición de datos: registro de EEG, ECG, EMG, fNIRS y sensores Vernier; planificación y soporte técnico.\nProcesado y análisis: filtrado, cancelación de artefactos, espectral, conectividad, reconstrucción de imagen, fusión multimodal, aprendizaje automático y estadística avanzada.\nCálculo intensivo y almacenamiento: recursos para grandes volúmenes de datos y modelos complejos, con acceso controlado.\nFormación y transferencia: cursos, talleres, asesoramiento a empresas, colaboraciones e I+D.\n\n\nPara consultas o solicitudes, visita la página de Contacto."
+    "objectID": "publications.html#selected-work",
+    "href": "publications.html#selected-work",
+    "title": "Publications",
+    "section": "Selected Work",
+    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
   }
 ]
