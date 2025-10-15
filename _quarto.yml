@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)"
+author-meta: "SIPBA-LAB"
 
 website:
-  title: "Quarto Academic"
+  title: "SIPBA-LAB"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  description: "Laboratorio de Procesado de Señal y Aplicaciones Biomédicas (SIPBA)"
  
   navbar:
     background: light  # You can change the background color here
@@ -33,8 +33,6 @@ website:
             href: posts.qmd#category=paper
           - text: Grants
             href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
       - text: Outreach
         menu:        
         - text: Presentations
@@ -58,7 +56,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[SIPBA-LAB](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     right:  
       - icon: github
